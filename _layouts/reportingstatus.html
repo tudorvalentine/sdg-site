@@ -30,7 +30,7 @@
 {%- if include.status_types and site[include.status_types] -%}
     {%- assign status_types = site[include.status_types].status_types -%}
 {%- endif -%}
-
+{% include components/reporting-status-introduction.html %}
 <div class="summary">
     <div class="statuses">
     {%- for status_type in status_types -%}
