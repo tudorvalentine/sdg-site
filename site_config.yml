@@ -237,6 +237,9 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
+    - value: custom_status_type
+      label: status.custom
+      hide_on_goal_pages: false
 repository_url_data: "https://github.com/tudorvalentine/sdg-data"
 repository_url_site: "https://github.com/tudorvalentine/sdg-site"
 search_index_boost: []
