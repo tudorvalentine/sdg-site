@@ -5,6 +5,8 @@ remote_theme: open-sdg/open-sdg@2.2.0
 
 # Replace this title as needed.
 title: general.site_title
+baseurl: /sdg-site
+remote_data_prefix: "https://tudorvalentine.github.io/sdg-data/"
 url: ""
 environment: staging
 
@@ -36,4 +38,3 @@ exclude:
   - README
   - README.md
   - LICENSE
-
